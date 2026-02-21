@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+   
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+     <!-- media query -->
+    <link rel="stylesheet" href="./css/mediaquery.css">
+
+</head>
+<body>
+
+    
+    <!-- start of header section -->
+    <header id="header" class="vh-100 d-flex flex-column justify-content-start align-items-center m-auto position-relative">
+        <div class="nav position-fixed z-3">
+            <a href="#header">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#footer">Contact</a>
+        </div>
+
+        <div class="text text-center">
+            <p class="p1">Dynamic Web Magic with Next.js</p>
+            <p class="p2 m-auto">Transforming Concepts into Seamless <span>User Experiences</span></p>
+            <p class="p3 m-auto">Hi! I'm <span class="fw-bolder">Abdelrahman Mohamed</span>, a Full Stack Javascript Developer.</p>
+        </div> 
+   
+        <div class="cv">
+         <a target="_blank" href="./cv.pdf"> <button class="rounded-3">Show my cv</button> </a>
+        </div> 
+    </header>
+    <!-- end of header section -->
+
+    <main>
+    <!-- start of about section -->
+    <section id="about" class="space">
+        <div class="container-about">
+            <div class="row gy-3 gy-lg-4">
+                <div class="col-12 col-md-6">
+                    <div class="inner inner1 position-relative">
+                        <img src="./images/about/abdo-about1.jpg" class="w-100" alt="">
+                        <p class="p1 position-absolute">Every line of code tells a story, and I'm here to write the next chapter of innovation.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row gy-3 gy-lg-4">
+                        <div class="col-12">
+                            <div class="inner inner2 position-relative">
+                                <img src="./images/about/about2.png" class="w-100" alt="">
+                                <p class="p2 position-absolute">I'm very flexible with time zone communications.</p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="inner inner3 position-relative">
+                                <img src="./images/about/about3.png" class="w-100" alt="">
+                                <p class="p3 position-absolute">My tech stack</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-12 col-md-6 order-last order-md-0">
+                    <div class="row gy-3 gy-lg-4">
+                        <div class="col-12">
+                            <div class="inner inner4 position-relative">
+                                <img src="./images/about/about4.png" class="w-100" alt="">
+                                <p class="p4 position-absolute">Tech enthusiast with a passion for development.</p>
+                            </div>
+                        </div>
+                        <div class="col-12">     
+                                <div class="inner inner5 position-relative text-center">
+                                    <img src="./images/about/about5.png"  class="w-100" alt="">
+                                    <p class="p5 position-absolute">Do you want to start a project together?</p>
+                                    <button id="copyButton" class="position-absolute d-flex justify-content-center align-items-center">
+                                        <i class="fa-solid fa-copy me-2"></i> 
+                                        <p class="email-p mt-3">copy my email address</p>
+                                    </button>
+                                    <div id="emailAddress" style="display:none;">abdoelsaeed290@gmail.com</div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="inner inner6 position-relative">
+                        <img src="./images/about/about6.png" class="w-100" alt="">
+                        <p class="p6 position-absolute">Engineering a Node.js Backend API.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of about section -->
+
+
+    <!-- start of skills section -->
+    <section id="skills" class="space">
+        <div class="container-skills">
+            <h2>My <span>Skills</span></h2>
+            <div class="row gy-3 gy-xxl-4 mt-3 mt-md-4 mt-xxl-5">
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <i class="fa-brands fa-html5"></i>
+                        <p>HTML</p>
+                    </div>
+                </div>   
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <p>css</p>
+                    </div>
+                </div>      
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <img src="./images/skills/3-tailwindccss-icon.png" alt="">
+                        <p>TailwindCss</p>
+                    </div>
+                </div>  
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                       <i class="fa-brands fa-js"></i>
+                        <p>Javascript</p>
+                    </div>
+                </div>  
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <img src="./images/skills/5-typescript-icon.png" alt="">
+                        <p>typescript</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <i class="fa-brands fa-react"></i>
+                        <p>React.js</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <img src="./images/skills/7-next.js-icon.png" alt="">
+                        <p>Next.js</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <i class="fa-brands fa-node-js"></i>
+                        <p>Node.js</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <img src="./images/skills/9-express.js-icon.png" alt="">
+                        <p>Express.js</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <img src="./images/skills/10-mongoDB-icon.png" alt="">
+                        <p>MongoDB</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <img src="./images/skills/11-i18n-icon.png" class="i18n" alt="">
+                        <p>I18n</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <i class="fa-brands fa-npm"></i>
+                        <p>npm</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <img src="./images/skills//13-jwt-icon.png" alt="">
+                        <p>JWT</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <i class="fa-brands fa-git-alt"></i>
+                        <p>Git</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <i class="fa-brands fa-github"></i>
+                        <p>GitHub</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <img src="./images/skills/16-context-icon.png" alt="">
+                        <p>Context API</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <img src="./images/skills/17-nest.js-icon.png" alt="">
+                        <p>Nest.js</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  col-xxl-2">
+                    <div class="inner text-center shadow-lg">
+                        <img src="./images/skills/18-postgres-icon.png" alt="">
+                        <p>postgres</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <!-- end of skills section -->
+
+
+
+    <!-- start of experience section   -->
+    <section id="experience" class="space">
+        <div class="container-experience">
+            <h2>My <span>Experiences</span></h2>
+            <div class="row gy-3 gy-md-4 mt-3 mt-md-4 mt-xxl-5">
+                <div class="col-lg-6">   
+                   <div class="inner d-flex flex-column justify-content-center align-items-center row-gap-4 row-gap-md-5 column-gap-3 p-2 p-md-3">
+                       <div class="inner-img">
+                            <img src="./images/experiences/1.png" class="rounded-5" alt="">
+                        </div>
+                        <div class="inner-content">
+                            <h3 class="mb-4 text-center">Backend Intern – Coide</h3>
+                            <p> • Worked on a full project as the sole backend developer.</p>
+                            <p> • Built and maintained backend logic, APIs, and database integration.</p>
+                            <p> • Used Express.js and MongoDB for backend development.</p>
+                        </div>
+                   </div>
+                </div>
+
+                <div class="col-lg-6">   
+                   <div class="inner d-flex flex-column justify-content-center align-items-center row-gap-4 row-gap-md-5 column-gap-3 p-2 p-md-3">
+                       <div class="inner-img">
+                            <img src="./images/experiences/2.png" class="rounded-5" alt="">
+                        </div>
+                        <div class="inner-content">
+                            <h3 class="mb-4 text-center">Project – Backend Development</h3>
+                            <p> • Built the backend using NestJS, PostgreSQL, and Prisma.</p>
+                            <p> • Designed and implemented APIs, database schema, and business logic.</p>
+                            <p> • Integrated PostgreSQL and Prisma for robust data management.</p>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of experience section   -->
+
+
+    <!-- start of projects section -->
+    <section id="projects" class="space">
+        <div class="container-projects">
+            <h2>A small selection of <span>projects</span></h2>
+            <div class="row mt-4 gy-4 gy-xxl-5">
+                <div class="col-lg-6">
+                    <div class="inner project">
+                        <figure>
+                            <img src="./images/projects/nirva.jpg" class="w-100" alt="">
+                        </figure>
+                        <figcaption class="my-3 my-md-4">
+                            <h3 class="text-white fw-bold">Nirva Shop</h3>
+                            <p>
+                                Production-ready MERN stack e-commerce platform called Nirva Store,
+                                developed as a freelance project featuring a responsive design and robust APIs.
+                            </p>
+                            <div class="links d-flex flex-column justify-content-center align-items-center row-gap-3">
+                                <a class="live" target="_blank" href="https://my-nirvashop.vercel.app/">Check Live site <i class="fa-solid fa-paper-plane mx-2"></i></a>
+                                <a class="repo" target="_blank" href="https://github.com/abdoelsaeed/Nirva"> <i class="fa-brands fa-github mx-2"></i> Check Repository</a>
+                            </div>
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="inner project">
+                        <figure>
+                            <img src="./images/projects/hotel.jpg" class="w-100" alt="">
+                        </figure>
+                        <figcaption class="my-3 my-md-4">
+                            <h3 class="text-white fw-bold"> hotel management system</h3>
+                            <p>
+                                Full-stack hotel management system called The Wild Oasis,
+                                built to streamline bookings and internal operations with
+                                a professional dashboard.                            
+                            </p>
+                            <div class="links d-flex flex-column justify-content-center align-items-center row-gap-3">
+                                <a class="live" target="_blank" href="https://lnkd.in/e5hRwvzU">Check Live site <i class="fa-solid fa-paper-plane mx-2"></i></a>
+                                <a class="repo" target="_blank" href="https://lnkd.in/egJ_PeZA"> <i class="fa-brands fa-github mx-2"></i> Check Repository</a>
+                            </div>
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="inner project">
+                        <figure>
+                            <img src="./images/projects/restaurant.jpg" class="w-100" alt="">
+                        </figure>
+                        <figcaption class="my-3 my-md-4">
+                            <h3 class="text-white fw-bold">Restaurant</h3>
+                            <p>
+                                Full-stack food delivery system called Delivered,
+                                featuring a dynamic menu, real-time cart management,
+                                and a streamlined ordering process for customers.                         
+                            </p>
+                            <div class="links d-flex flex-column justify-content-center align-items-center row-gap-3">
+                                <a class="live opacity-0" target="_blank" href="">Check Live site <i class="fa-solid fa-paper-plane mx-2"></i></a>
+                                <a class="repo" target="_blank" href="https://github.com/abdoelsaeed/Restaurant-Full-Stack"> <i class="fa-brands fa-github mx-2"></i> Check Repository</a>
+                            </div>
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="inner project">
+                        <figure>
+                            <img src="./images/projects/learning.jpg" class="w-100" alt="">
+                        </figure>
+                        <figcaption class="my-3 my-md-4">
+                            <h3 class="text-white fw-bold">Learning Management System</h3>
+                            <p>
+                                Professional MERN stack learning platform featuring Zoom-integrated live sessions,
+                                automated PDF certificates, Stripe payments,
+                                and real-time chat.                        
+                            </p>
+                            <div class="links d-flex flex-column justify-content-center align-items-center row-gap-3">
+                                <a class="live opacity-0" target="_blank" href="">Check Live site <i class="fa-solid fa-paper-plane mx-2"></i></a>
+                                <a class="repo" target="_blank" href="https://lnkd.in/dmM3zCwp"> <i class="fa-brands fa-github mx-2"></i> Check Repository</a>
+                            </div>
+                        </figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of projects section -->
+
+
+    <!-- start of approach section  -->
+    <section id="approach" class="space">
+        <div class="container-approach">
+            <h2>My <span>approach</span></h2>
+            <div class="row gy-3 gy-md-4 mt-3 mt-md-4 mt-xxl-5">
+                <div class="col-lg-4">
+                    <div class="inner phase1 d-flex justify-content-center align-items-center shadow-lg">
+                        <div class="phase-n">
+                            <p class="my-0">Phase 1</p>
+                        </div>
+                        <div class="phase-content text-center ">
+                            <h3>Planning & Strategy</h3>
+                            <p>
+                                We'll collaborate to map out your website's goals,
+                                target audience, and key functionalities.
+                                We'll discuss things like site structure,
+                                navigation, and content requirements.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="inner phase2 d-flex justify-content-center align-items-center shadow-lg">
+                        <div class="phase-n">
+                            <p class="my-0">Phase 2</p>
+                        </div>
+                        <div class="phase-content text-center">
+                            <h3>Development & Progress Update</h3>
+                            <p>
+                                Once we agree on the plan,
+                                I cue my lofi playlist and dive into coding.
+                                From initial sketches to polished code,
+                                I keep you updated every step of the way.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="inner phase3 d-flex justify-content-center align-items-center shadow-lg">
+                        <div class="phase-n">
+                            <p class="my-0">Phase 3</p>
+                        </div>
+                        <div class="phase-content text-center ">
+                            <h3>Development & Launch</h3>
+                            <p>
+                                This is where the magic happens! Based on the approved design,
+                                I'll translate everything into functional code,
+                                building your website from the ground up.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of approach section  -->
+    </main>
+
+
+    <!-- start of footer section -->
+    <footer id="footer" class="text-center">
+        <p class="p1">
+            Ready to take <span>your</span> digital presence to the next level ?
+        </p>
+        <p class="p2 ">Reach out to me today and let's discuss how I can help you achieve your goals.</p>
+        <div class="contact">
+            <a class=" py-3 px-4 text-decoration-none" target="_blank" href="https://wa.me/201147440577">Let's get in touch <i class="fa-solid fa-paper-plane ms-2"></i></a>
+        </div> 
+        <div class="app d-flex flex-column justify-content-center align-items-center row-gap-4 flex-lg-row justify-content-lg-between align-items-lg-baseline mt-lg-4">
+            <div class="icons order-lg-1 me-lg-5">
+                <a class="py-1 px-2 mx-2 rounded-2" target="_blank" href="https://www.linkedin.com/in/abdelrahman-mohamed-211112223/"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="py-1 px-2 mx-2 rounded-2" target="_blank" href="https://github.com/abdoelsaeed"><i class="fa-brands fa-github"></i></a>
+            </div> 
+            <p class="p3 ms-lg-5">Copyright © 2025 Abdelrahman Mohamed</p>
+        </div>
+    </footer>
+    <!-- end of footer section -->
+
+
+    
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

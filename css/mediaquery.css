@@ -1,0 +1,622 @@
+/* start of general section  */
+@media screen and (min-width : 576px) {
+    .space {
+        padding: 40px 0;
+}
+    h2 {
+        font-size: 36px;
+    }
+}
+@media screen and (min-width : 768px){
+ 
+    h2 {
+        font-size: 44px;
+    }
+}
+@media screen and (min-width : 992px){
+       .space {
+        padding: 50px 0;
+    }
+    h2 {
+        font-size: 55px;
+    }
+}
+@media screen and (min-width : 1200px){
+    h2 {
+        font-size: 70px;
+    }
+}
+@media screen and (min-width : 1400px){
+    .space {
+        padding: 70px 0;
+    }
+    h2 {
+        font-size: 80px;
+    }
+}
+/* end of general section  */
+
+
+/* start of header section */
+@media screen and (min-width:340px) {
+     #header .nav {
+        padding: 14px 18px;
+    }
+    #header .nav  a {
+        font-size: 13px;
+        margin: 0 10px;
+    }
+} 
+@media screen and (min-width:360px) {
+      #header .text {
+        margin-top: 150px;
+    }
+      #header .text .p2 {
+        font-size: 42px;
+    }
+}
+@media screen and (min-width:380px) {
+    #header .nav  a {
+        font-size: 14px;
+        margin: 0 12px;
+    }
+    #header .text .p2 {
+        padding-bottom: 25px;
+    }
+}
+@media screen and (min-width:400px) {
+    #header .text .p2 {
+        font-size: 45px;
+    }
+    #header .text .p3 {
+        font-size: 17px;
+    }
+}
+@media screen and (min-width:576px) {
+    #header .nav {
+        padding: 18px 30px;
+    }
+    #header .text .p1 {
+        font-size: 12px;
+    }
+    #header .text .p2 {
+        font-size: 48px;
+    }
+    #header .text .p3 {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:768px){
+  
+    #header .nav  a {
+        font-size: 15px;
+        margin: 0 14px;
+    }
+    #header .text .p1 {
+        font-size: 13px;
+    }
+    #header .text .p2 {
+        font-size: 54px;
+        padding-bottom: 30px;
+    }
+    #header .text .p3 {
+        font-size: 20px;
+    }
+    #header .cv a button {
+        margin-top: 35px;
+    }
+}
+@media screen and (min-width:921px) {
+     #header .text .p2 {
+        font-size: 58px;
+     }
+}
+@media screen and (min-width:992px) {
+    #header .nav {
+        padding: 20px 35px;
+        border-radius: 10px;
+    }
+    #header .nav  a {
+        font-size: 16px;
+        margin: 0 15px;
+    }
+    #header .text {
+        margin-top: 180px;
+    }
+    #header .text .p2 {
+        font-size: 64px;
+    }
+}
+@media screen and (min-width:1200px){
+    #header .nav  a {
+        margin: 0 18px;
+    }
+    #header .text .p2 {
+        font-size: 70px;
+    }
+    #header .cv a button {
+        margin-top: 45px;
+    }    
+}
+ @media screen and (min-width:1400px){
+    #header .nav  a {
+        font-size: 17px;
+    }
+      #header .text {
+        margin-top: 200px;
+    }
+    #header .text .p1 {
+        font-size: 14px;
+    }
+     #header .text .p2 {
+        font-size: 74px;
+    }
+       #header .text .p3 {
+        font-size: 22px;
+    }
+     #header .cv a button {
+        margin-top: 55px;
+        font-size: 18px;
+    }
+ }
+ /* end of header section */
+
+
+
+ /* start of about section */
+    @media screen and (min-width : 380px) {
+    #about .inner .p1 {
+        font-size: 16px;
+    }
+    #about .inner .p2 {
+        font-size: 16px;
+    }
+    #about .inner .p3 {
+        font-size: 16px;
+    }
+    #about .inner .p4 {
+        font-size: 16px;
+    }
+    #about .inner .p5 {
+        font-size: 16px;
+    }
+    #about .inner .p6 {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width : 430px) {
+   #about .inner .p1 {
+        bottom: 20px;
+        font-size: 18px;
+    }
+    #about .inner .p2 {
+        font-size: 18px;
+    }
+    #about .inner .p3 {
+        font-size: 18px;
+    }
+    #about .inner .p4 {
+        font-size: 18px;
+    }
+    #about .inner .p5 {
+        top: 50px;
+        font-size: 18px;
+    }
+    #about .inner .p6 {
+        font-size: 18px;
+    }
+    #about .inner button {
+        top: 130px;
+    }
+}
+@media screen and (min-width : 480px) {
+    #about .inner .p4 {
+        max-width: 60%;
+    }
+    #about .inner .p5 {
+        top: 50px;
+    }
+    #about .inner .p6 {
+        max-width: 60%;
+    }
+}
+@media screen and (min-width : 576px) {
+     #about .inner .p1 {
+        left: 30px;
+        font-size: 24px;
+        max-width: 80%;
+    }
+    #about .inner .p2 {
+        left: 30px;
+        font-size: 24px;
+        max-width: 75%;
+    }
+    #about .inner .p3 {
+        left: 30px;
+        font-size: 24px;
+    }
+    #about .inner .p4 {
+        left: 30px;
+        font-size: 24px;
+    }
+    #about .inner .p5 {
+        top: 70px;
+        font-size: 24px;
+    }
+    #about .inner .p6 {
+        left: 30px;
+        font-size: 24px;
+        top: 110px;
+    }
+    #about .inner button {
+        top: 160px;
+    }
+    #about .inner .email-p {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width : 768px) {
+    #about .inner .p1 {
+        font-size: 16px;
+        bottom: 5px;
+        max-width: 75%;
+    }
+    #about .inner .p2 {
+        font-size: 16px;
+    }
+    #about .inner .p3 {
+        font-size: 16px;
+    }
+    #about .inner .p4 {
+        font-size: 16px;
+    }
+    #about .inner .p5 {
+        font-size: 16px;
+        top: 50px;
+    }
+    #about .inner .p6 {
+        top: 60px;
+        font-size: 16px;
+    }
+    #about .inner button {
+        top: 110px;
+    }
+    #about .inner .email-p {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width : 992px) {
+    #about .inner .p1 {
+        font-size: 20px;
+        bottom: 10px;
+        max-width: 85%;
+    }
+    #about .inner .p2 {
+        font-size: 20px;
+        top: 22px;
+    }
+    #about .inner .p3 {
+        font-size: 20px;
+    }
+    #about .inner .p4 {
+        font-size: 20px;
+        top: 22px;
+    }
+    #about .inner .p5 {
+        font-size: 20px;
+        top: 70px;
+    }
+    #about .inner .p6 {
+        top: 60px;
+        font-size: 20px;
+    }
+    #about .inner button {
+        top: 150px;
+    }
+    #about .inner .email-p {
+        font-size: 13px;
+    }
+}
+@media screen and (min-width : 1200px) {
+    #about .inner .p1 {
+        font-size: 24px;
+        bottom: 20px;
+        max-width: 85%;
+    }
+    #about .inner .p2 {
+        font-size: 24px;
+    }
+    #about .inner .p3 {
+        font-size: 24px;
+    }
+    #about .inner .p4 {
+        font-size: 24px;
+        max-width: 70%;
+    }
+    #about .inner .p5 {
+        font-size: 24px;
+    }
+    #about .inner .p6 {
+        top: 80px;
+        font-size: 24px;
+    }
+    #about .inner button {
+        top: 160px;
+    }
+    #about .inner .email-p {
+        font-size: 13px;
+    }
+}
+@media screen and (min-width : 1400px){
+    #about .inner .p1 {
+        font-size: 32px;
+        bottom: 0px;
+        max-width: 85%;
+    }
+    #about .inner .p2 {
+        font-size: 32px;
+    }
+    #about .inner .p3 {
+        font-size: 32px;
+    }
+    #about .inner .p4 {
+        font-size: 32px;
+        max-width: 80%;
+    }
+    #about .inner .p5 {
+        font-size: 32px;
+        top: 110px;
+    }
+    #about .inner .p6 {
+        top: 140px;
+        font-size: 32px;
+        max-width: 75%;
+    }
+    #about .inner button {
+        font-size: 20px;
+        top: 220px;
+        padding: 25px 30px;
+    }
+    #about .inner .email-p {
+        font-size: 18px;
+    }
+}
+ /* end of about section */
+
+
+
+ /* start of skills section */
+ /* end of skills section */
+
+
+
+
+ /* start of project section */
+ /* end of project section */
+
+
+
+
+ /* start of experiences secction */
+ @media screen and (min-width:576px) {
+    #experience .inner {
+        min-height: 400px;
+    }
+    #experience .inner-img img {
+    width: 120px;
+    height: 120px;
+}
+}
+@media screen and (min-width:768px) {
+   #experience  h3  {
+    font-size: 30px;
+   }
+    #experience p {
+        font-size: 18px;
+    }
+    #experience .inner-img img {
+    width: 150px;
+    height: 150px;
+    }
+}
+@media screen and (min-width:992px) {
+    #experience .inner {
+        min-height: 450px;
+    }
+    #experience  h3  {
+    font-size: 24px;
+   }
+    #experience p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:1400px) {
+       #experience .inner {
+        min-height: 460px;
+    }
+    #experience  h3  {
+    font-size: 30px;
+   }
+    #experience p {
+        font-size: 16px;
+    }
+    #experience .inner-img img {
+    width: 180px;
+    height: 180px;
+    }
+}
+ /* end of experiences secction */
+
+
+
+ /* start of projects section  */
+ @media screen and (min-width:576px) {
+    #projects h3 {
+        font-size: 26px;
+    }
+    #projects p {
+        font-size: 18px;
+    }
+    #projects .live {
+          margin: 10px 0;
+    }
+}
+@media screen and (min-width:768px) {
+    #projects .live {
+        font-size: 22px;
+    }
+    #projects .repo {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:992px){
+    #projects .project {
+        min-height: 560px; 
+    }
+    
+} 
+
+@media screen and (min-width:1400px) {
+     #projects h3 {
+        font-size: 34px;
+    }
+    #projects p {
+        font-size: 22px;
+    }
+    #projects .live {
+          margin: 15px 0;
+    }
+}
+ /* end of projects section  */
+
+
+
+ /* start of approach section */
+ @media screen and (min-width: 576px ) {
+    #approach .inner {
+        min-height: 400px;
+    }
+    #approach .inner .phase-n p {
+        font-size: 30px;
+    }
+    #approach .inner .phase-content h3 {
+        font-size: 40px;
+    }
+    #approach .inner .phase-content p {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 768px ){
+    #approach .inner {
+        min-height: 500px;
+    }
+    #approach .inner .phase-content h3 {
+        font-size: 48px;
+    }
+    #approach .inner .phase-content p {
+        font-size: 22px;
+    }
+}
+@media screen and (min-width: 992px ) {
+    #approach .inner .phase-content h3 {
+        font-size: 30px;
+    }
+    #approach .inner .phase-content p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 1400px ){
+    #approach .inner {
+        min-height: 700px;
+    }
+    #approach .inner .phase-content h3 {
+        font-size: 44px;
+        margin-bottom: 30px;
+    }
+    #approach .inner .phase-content p {
+        font-size: 20px;
+    }
+}
+ /* end of approach section */
+
+
+
+ 
+ /* start of footer section  */
+@media screen and (min-width :576px ) {
+    #footer .p1 {
+        font-size: 40px;
+        max-width: 70%;
+        margin-bottom: 30px;
+    }
+    #footer .p2  {
+         max-width: 80%;
+         margin-bottom: 50px;
+    }
+    #footer .contact a {
+        font-size: 20px;
+    }
+    #footer .icons a {
+        font-size: 24px;
+    }
+    #footer .p3 {
+    font-size: 16px;
+} 
+}
+@media screen and (min-width :768px) {
+    #footer {
+        padding: 80px 0 30px 0;
+    }
+    #footer .p1 {
+        font-size: 50px;
+    }
+     #footer .p2 {
+        font-size: 20px;
+    }
+     #footer .p3 {
+    font-size: 17px;
+    } 
+}
+@media screen and (min-width :992px)  {
+     #footer .p1 {
+        font-size: 56px;
+        max-width: 60%;
+    }
+    #footer .p2  {
+        font-size: 22px;
+        max-width: 70%;
+    }
+    #footer .p3 {
+        font-size: 18px;
+    } 
+}
+@media screen and (min-width :1200px) {
+    #footer {
+        padding: 100px 0 20px 0;
+    }
+    #footer .p1 {
+        max-width: 50%;
+    }
+     #footer .p2 {
+        max-width: 50%;
+        margin-bottom: 70px;
+    }
+    #footer .icons {
+        margin: 60px 0 30px 0;
+    }
+}
+@media screen and (min-width :1400px) {
+    #footer .p1 {
+        font-size: 64px;
+        max-width: 50%;
+    }
+       #footer .p2 {
+        max-width: 60%;
+        margin-bottom: 70px;
+    }
+     #footer .icons a {
+        font-size: 30px;
+    }
+}
+ /* end of footer section  */
